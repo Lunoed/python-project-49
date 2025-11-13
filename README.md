@@ -6,3 +6,6 @@
 
 ### Check if number is even:
 [![asciicast](https://asciinema.org/a/KpvfqgYuhT6IBDdJfaMXlbOkX.svg)](https://asciinema.org/a/KpvfqgYuhT6IBDdJfaMXlbOkX)
+
+### Print right answer:
+[![asciicast](https://asciinema.org/a/BPpQlx1eNLs4VqoyhvBtJgXR7.svg)](https://asciinema.org/a/BPpQlx1eNLs4VqoyhvBtJgXR7)

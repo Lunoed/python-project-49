@@ -18,7 +18,8 @@ def even():
             count += 1
         else:
             result = 'yes' if answer == 'no' else 'no'
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.)")
+            print(f"'{answer}' is wrong answer ;(."
+                  f" Correct answer was '{result}'.")
             break
     if count == 3:
         print(f'Congratulations, {name}')
