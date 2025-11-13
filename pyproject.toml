@@ -18,6 +18,7 @@ packages = ["brain_games"]
 [dependency-groups]
 dev = [
     "black>=25.11.0",
+    "ruff>=0.14.4",
 ]
 
 [project.scripts]
