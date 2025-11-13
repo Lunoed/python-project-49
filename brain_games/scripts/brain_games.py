@@ -1,4 +1,4 @@
-from ..func import hello
+from ..cli import hello
 
 
 def main():
