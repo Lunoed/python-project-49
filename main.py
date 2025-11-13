@@ -1,6 +1,3 @@
-def main():
-    print("Hello from python-project-49!")
-
-
-if __name__ == "__main__":
-    main()
+t = ([1], [2])
+t[0].append(3)
+print(t)
