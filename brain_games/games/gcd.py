@@ -1,6 +1,8 @@
-from brain_games.games.welcome import hello
-from random import randint
 from math import gcd
+from random import randint
+
+from brain_games.games.welcome import hello
+
 
 def b_gcd():
     name = hello()

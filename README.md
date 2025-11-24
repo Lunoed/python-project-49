@@ -12,3 +12,6 @@
 
 ### Determine the greatest common divisor
 [![asciicast](https://asciinema.org/a/KgCOhoB2KnI1B2MJmBhCIZXxp.svg)](https://asciinema.org/a/KgCOhoB2KnI1B2MJmBhCIZXxp)
+
+### Determine what number is lost
+[![asciicast](https://asciinema.org/a/U0Tj5GXYngajm0xL9c0sV6moc.svg)](https://asciinema.org/a/U0Tj5GXYngajm0xL9c0sV6moc)
