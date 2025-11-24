@@ -15,3 +15,6 @@
 
 ### Determine what number is lost
 [![asciicast](https://asciinema.org/a/U0Tj5GXYngajm0xL9c0sV6moc.svg)](https://asciinema.org/a/U0Tj5GXYngajm0xL9c0sV6moc)
+
+### Is a number prime?
+[![asciicast](https://asciinema.org/a/bfpF8XrJRPc5vfi1VOzC3ZdAj.svg)](https://asciinema.org/a/bfpF8XrJRPc5vfi1VOzC3ZdAj)

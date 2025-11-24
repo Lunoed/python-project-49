@@ -26,7 +26,8 @@ def minus():
     if answer == a - b:
         print('Correct!')
     else:
-        print(f'{answer} is wrong naswer ;(.Correct answer was {ress})')
+        print(f"'{answer}' is wrong naswer ;(. "
+              f"Correct answer was '{ress})'.")
         print(f"Lets's try again, {name}!")
         raise SystemExit(0)
         

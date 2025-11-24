@@ -1,5 +1,6 @@
-from .welcome import hello
 from random import randint
+
+from .welcome import hello
 
 
 def progression():
@@ -22,7 +23,7 @@ def progression():
             count += 1
         else:
             print(f"'{answer}' was wrong answer ;(."
-                f"Correct answer was '{nums[numbers.index('..')]})'")
+                f"Correct answer was '{nums[numbers.index('..')]})'.")
             print(f"Let's try again, {name}!")
             break
     if count == 3:

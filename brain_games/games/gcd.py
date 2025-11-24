@@ -19,7 +19,7 @@ def b_gcd():
             count += 1
         else:
             print(f"'{answer}' is wrong answer ;(."
-                  f" Correct answer was '{result}.'")
+                  f" Correct answer was '{result}'.")
             print(f'Lets try again, {name}.')
             break
     if count == 3:
