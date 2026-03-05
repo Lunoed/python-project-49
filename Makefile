@@ -8,4 +8,13 @@ build:
 	uv build
 
 package-install:
-	uv tool install dist/*.whl
+	uv tool install --force dist/*.whl
+
+lint:
+	uv run ruff check brain_games
+
+black:
+	black .
+
+gcd:
+	uv run brain-gcd
