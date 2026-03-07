@@ -5,9 +5,8 @@ MAX_TRIES = 3
 
 
 def is_prime(num: int) -> bool:
-    num = num
     answer = True
-    denominators = [i for i in range(2, num // 2 + 1)]
+    denominators = list(range(2, num // 2 + 1))
     for number in denominators:
         if num % number == 0:
             answer = False

@@ -9,7 +9,7 @@ def check_answer(correct_answer: str, answer: str) -> bool:
 
 
 def get_question():
-    nums = [num for num in range(1, 101)]
+    nums = list(range(1, 101))
     question = num = choice(nums)
     answer = "yes" if num % 2 == 0 else "no"
     return question, answer

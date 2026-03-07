@@ -5,7 +5,7 @@ RULES = "What number in missing in the progression?"
 PROG_LEN = 10
 
 
-def get_question() -> str:
+def get_question() -> tuple[str, str]:
     progression, answer = make_progression()
     question = progression
     return question, answer
