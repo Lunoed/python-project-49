@@ -21,7 +21,7 @@ def game_engine(
             count += 1
         else:
             print(f"{answer} is wrong answer ;( ", end="")
-            print(f"Correct answer was {correct_answer}.")
+            print(f'Correct answer was "{correct_answer}".')
             print(f"Let's try again, {name}!")
             break
     if count == 3:
