@@ -7,8 +7,8 @@ PROG_LEN = 10
 
 def get_question() -> str:
     progression, answer = make_progression()
-    print(f"Question: {progression}")
-    return answer
+    question = progression
+    return question, answer
 
 
 def check_answer(correct_answer: str, user_responce: str) -> bool:

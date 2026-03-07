@@ -10,8 +10,7 @@ def find_gcd():
     num_2 = randint(1, 100)
     question = f"{num_1} {num_2}"
     answer = gcd(num_1, num_2)
-    print(f"Question: {question}")
-    return answer
+    return question, answer
 
 
 def check_answer(answer_1, answer_2):

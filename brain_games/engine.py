@@ -12,17 +12,16 @@ def game_engine(
     print(rules)
     count = 0
     while count < max_tries:
-        correct_answer = func_question()
+        question, correct_answer = func_question()
+        print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
         check = check_answer(correct_answer, answer)
         if check:
             print("Correct!")
             count += 1
         else:
-            print(
-                f"{answer} is wrong answer ;( "
-                f"Correct answer was {correct_answer}."
-            )
+            print(f"{answer} is wrong answer ;( ", end='')
+            print(f"Correct answer was {correct_answer}.")
             print(f"Let's try again, {name}!")
             break
     if count == 3:

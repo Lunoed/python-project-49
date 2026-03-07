@@ -11,7 +11,6 @@ def get_question():
     operations = ("+", "-", "*")
     operator = choice(operations)
     question = f"{num_1} {operator} {num_3 if operator == '*' else num_2}"
-    print(f"Question: {question}.")
     answer = str(eval(question))
     return question, answer
 

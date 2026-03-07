@@ -15,12 +15,3 @@ lint:
 
 black:
 	black .
-
-gcd:
-	uv run brain-gcd
-
-progression:
-	uv run brain-progression
-
-prime:
-	uv run brain-prime
