@@ -1,6 +1,5 @@
 from random import choice, randint
 
-
 MAX_TRIES = 3
 RULES = "What is a result of the expression?"
 
@@ -13,9 +12,9 @@ def get_question():
     operator = choice(operations)
     question = f"{num_1} {operator} {num_3 if operator == '*' else num_2}"
     print(f"Question: {question}.")
-    answer = int(eval(question))
-    return str(eval(question)), answer
+    answer = str(eval(question))
+    return question, answer
 
 
-def check_answer(question: str, answer: str | int) -> bool:
-    return question == answer
+def check_answer(correct_answer: str, answer: str | int) -> bool:
+    return correct_answer == answer

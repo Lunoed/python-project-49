@@ -1,5 +1,10 @@
 from brain_games.engine import game_engine
-from brain_games.games.calc import MAX_TRIES, RULES, check_answer, get_question
+from brain_games.games.progression import (
+    MAX_TRIES,
+    RULES,
+    check_answer,
+    get_question,
+)
 
 
 def main():
