@@ -1,6 +1,6 @@
 from random import randint
 
-RULES = 'Answer "yes" if given number us prime. Otherwise answer "no".'
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 MAX_TRIES = 3
 
 
