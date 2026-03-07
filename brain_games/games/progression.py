@@ -1,7 +1,7 @@
 from random import randint
 
 MAX_TRIES = 3
-RULES = "What number in missing in the progression?"
+RULES = "What number is missing in the progression?"
 PROG_LEN = 10
 
 

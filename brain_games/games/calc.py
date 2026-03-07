@@ -1,7 +1,7 @@
 from random import choice, randint
 
 MAX_TRIES = 3
-RULES = "What is a result of the expression?"
+RULES = "What is the result of the expression?"
 
 
 def get_question():
