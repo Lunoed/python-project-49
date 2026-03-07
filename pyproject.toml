@@ -2,7 +2,7 @@
 authors = [
     {name = 'Kirill Drobin', email = 'meispandaren@gmail.com'},
 ]
-name = "python_project_49"
+name = "hexlet-code"
 version = "0.1.0"
 description = "5 games that test your basic math knowledge."
 readme = "README.md"
